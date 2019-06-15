@@ -1,0 +1,42 @@
+.sfondo{
+  background-color:rgb(44, 62, 80);
+  color:white;
+}
+.setting{
+margin:25px 0;
+font-weight:700;
+}
+.left{
+  font-size:30px;
+}
+.left:hover{
+  color:white;
+}
+ .navbar-brand{
+  color:white;
+}
+ .hover:hover{
+  color:rgb(26, 188, 148);
+}
+@media all and (max-width: 991px) {
+  .menu{
+    display: none;
+  }
+
+}
+@media all and (min-width: 992px) {
+  .mostra-menu{
+    display: none;
+  }
+}
+.mod{
+  background-color:rgb(26, 188, 148);
+  border-radius:10px  ;
+  border-color:rgb(26, 188, 148) ;
+}
+.menu-a-tendina{
+display: none;
+}
+.mostra-menu:active .col-xs-12.menu-a-tendina{
+  display: block;
+}
