@@ -1,4 +1,9 @@
-
+header{
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index:1;
+}
 .sfondo{
   background-color:rgb(44, 62, 80);
   color:white;
@@ -119,5 +124,33 @@ padding-bottom:50px;
 .container-fluid.portfolio2 img{
   background-size:cover;
   width:100%;
-  padding-bottom:30px; 
+  padding-bottom:30px;
+}
+.container-fluid.about {
+background-color:rgb(26, 188, 148);
+text-align:center;
+padding:7% 15% 5% 15%;
+color:white;
+}
+.container-fluid.about .col-lg-12.col-md-12.col-xs-12 h2{
+  font-weight:700;
+  font-size:50px;
+  margin:0  0 5%  0;
+}
+.container-fluid.about .col-lg-6.col-md-12.col-xs-12 p{
+  font-size:22px;
+ text-align:left;
+}
+.free a{
+  border-radius:15px;
+  border-color:white;
+  padding:15px 20px;
+  font-size:25px;
+  color:white;
+  background-color:rgb(26, 188, 148);
+}
+.free a:hover{
+  background-color:white;
+  color:black;
+  border-color:white;
 }
