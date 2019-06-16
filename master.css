@@ -1,17 +1,17 @@
+/*setting header*/
 header{
   position: fixed;
   top:0;
   width:100%;
   z-index:1;
-
 }
 .sfondo{
   background-color:rgb(44, 62, 80);
   color:white;
 }
 .setting{
-margin:25px 0;
-font-weight:700;
+  margin:25px 0;
+  font-weight:700;
 }
 .left{
   font-size:30px;
@@ -42,55 +42,26 @@ font-weight:700;
   border-color:rgb(26, 188, 148) ;
 
 }
-.mostra-menu.setting{
 
-}
 .menu-a-tendina{
-display: none;
+  display: none;
 }
 .mostra-menu:active .col-xs-12.menu-a-tendina{
   display: block;
 }
-.container-fluid.section-top p{
-  font-size:20px;
-  padding-bottom:30px;
-}
-.container-fluid.section-top h2{
-  font-size:20px;
-    padding:30px 0;
-    font-weight:700;
-}
-.container-fluid.section-top{
-background-color:rgb(44, 62, 80);
-text-align: center;
-color:white;
-padding-bottom:50px;
-}
-.container-fluid.section-top img{
-  text-align:right;
-  padding-bottom:30px;
-}
-.container-fluid.section-bottom{
-  text-align: center;
-  background-color:black;
-  padding:30px 0;
-  color:white;
-}
-.section-top .row .col-lg-4 a{
-  color:rgb(26, 188, 148);
-}
 
-/*section 1*/
-.onesection .row .col-lg-offset-2.col-lg-8.col-lg-offset-2 img{
-  height:250px;
-  margin:100px 0 0 0;
-}
+/*section 1 avatar*/
 .container-fluid.onesection {
   text-align: center;
   color:white;
   background-color:rgb(26, 188, 148);
   padding:10% 0 5% 0;
 }
+.container-fluid.onesection img{
+  height:250px;
+  margin:100px 0 0 0;
+}
+
 .container-fluid.onesection h1{
   font-weight:700;
   font-size:60px;
@@ -101,49 +72,49 @@ padding-bottom:50px;
 }
 @media all and (max-width: 410px) {
   .title h1{
-  display:none;
+    display:none;
   }
 
 }
 @media all and (min-width: 410px) {
   .title h2{
-  display:none;
+    display:none;
   }
 
 }
-.container-fluid.portfolio{
+/*setting section2 portfolio*/
+.container-fluid.portfoliotop{
   text-align: center;
   padding:50px 0;
 }
-.container-fluid.portfolio h2{
+.container-fluid.portfoliotop h2{
   color:rgb(44, 62, 80);
   font-weight:700;
   font-size:40px;
 }
-.container-fluid.portfolio2 [class*='col-']{
-
-}
-.portfolio2{
+.portfoliobottom{
   padding:0 10%;
 
 }
-.container-fluid.portfolio2 img{
+.container-fluid.portfoliobottom img{
   background-size:cover;
   width:100%;
   padding-bottom:30px;
 }
+
+/*setting section 3 about*/
 .container-fluid.about {
-background-color:rgb(26, 188, 148);
-text-align:center;
-padding:50px 15%  50px 15%;
-color:white;
+  background-color:rgb(26, 188, 148);
+  text-align:center;
+  padding:50px 15%  50px 15%;
+  color:white;
 }
-.container-fluid.about .col-lg-12.col-md-12.col-xs-12 h2{
+.container-fluid.about h2{
   font-weight:700;
   font-size:50px;
   margin:0  0 5%  0;
 }
-.container-fluid.about .col-lg-6.col-md-12.col-xs-12 p{
+.container-fluid.about  p{
   font-size:22px;
  text-align:left;
 }
@@ -160,9 +131,12 @@ color:white;
   color:black;
   border-color:white;
 }
+/*setting section4 contact*/
+.contact{
+  padding:50px 0;
+}
 .container-fluid.contacttop{
   text-align: center;
-
 }
 .container-fluid.contacttop h2{
   font-weight:700;
@@ -191,6 +165,33 @@ label{
   border-color:rgb(21, 154, 128);
 
 }
-.contact{
-  padding:50px 0;
+
+/*setting footer*/
+.container-fluid.section-top p{
+  font-size:20px;
+  padding-bottom:30px;
+}
+.container-fluid.section-top h2{
+  font-size:20px;
+  padding:30px 0;
+  font-weight:700;
+}
+.container-fluid.section-top{
+  background-color:rgb(44, 62, 80);
+  text-align: center;
+  color:white;
+  padding-bottom:50px;
+}
+.container-fluid.section-top img{
+  text-align:right;
+  padding-bottom:30px;
+}
+.container-fluid.section-bottom{
+  text-align: center;
+  background-color:black;
+  padding:30px 0;
+  color:white;
+}
+.section-top .row .col-lg-4 a{
+  color:rgb(26, 188, 148);
 }
